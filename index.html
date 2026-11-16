@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ammonite</title>
+    <style>
+      #logo {
+          max-width: 100%;
+      }
+      body {
+        padding: 16px;
+        max-width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+        background: #1f1f1f;
+      }
+      h1, h3,p {
+        color: #ffffff;
+        font-weight: bold;
+        font-family:  'Ubuntu', sans-serif;
+      }
+      p {
+        opacity: 0.5;
+      }
+
+      h3 a {
+        color: #9bd595;
+        text-decoration:  underline
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+
+      @keyframes fadeIn2 {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 0.5;
+        }
+      }
+
+      h1,h3,hr {
+        opacity: 0;
+        animation: fadeIn 2s ease-in-out forwards;
+        animation-delay: 1s
+      }
+
+      p, #soon {
+        opacity: 0;
+        animation: fadeIn2 2s ease-in-out forwards;
+        animation-delay: 1s
+      }
+
+    </style>
+  </head>
+  <body>
+  <svg id="logo" width="495" height="35" viewBox="0 0 495 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style>
+      svg { overflow: visible; }
+      @keyframes kf_Vector_transform_0 {
+        0% {
+          transform: translateX(-79px) translateX(-421px) translateY(0px);
+        }
+        12.5% {
+          animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+          transform: translateX(-79px) translateX(-421px) translateY(0px);
+        }
+        37.5% {
+          transform: translateX(-79px) translateX(0.005px) translateY(0px);
+        }
+        100% {
+          transform: translateX(-79px) translateX(0.005px) translateY(0px);
+        }
+      }
+      #Vector {
+        transform-origin: 0 0;
+        animation: kf_Vector_transform_0 4s linear infinite;
+        animation-iteration-count: 1;
+      }
+      @keyframes kf_Vector_2_transform_0 {
+        0% {
+          animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+          transform: translate(36.95px, 17.075px) scaleX(0) scaleY(0) translate(-36.95px, -17.075px);
+        }
+        12.5% {
+          transform: translate(36.95px, 17.075px) scaleX(1) scaleY(1) translate(-36.95px, -17.075px);
+        }
+        100% {
+          transform: translate(36.95px, 17.075px) scaleX(1) scaleY(1) translate(-36.95px, -17.075px);
+        }
+      }
+      #Vector_2 {
+        transform-origin: 0 0;
+        animation: kf_Vector_2_transform_0 4s linear infinite;
+        animation-iteration-count: 1;
+      }
+    </style>
+    <g id="Group_1">
+    <g id="Mask_group" transform="translate(79)">
+    <mask id="mask0_1_109" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="495" height="35">
+    <rect id="Rectangle_1" width="416" height="34" fill="#D9D9D9"/>
+    </mask>
+    <g mask="url(#mask0_1_109)">
+    <path id="Vector" transform="translate(-79)" d="M24.6 0H73.9V34.15H55.5V22.45L47.05 34.15H0L24.6 0ZM29 22.45H55.5V11.8H36.7L29 22.45ZM78.95 34.15V6.6H163.75L151.45 23.4H161.2V34.15H126L138.05 17.35H123.05V34.15H106.55V17.35H95.5V34.15H78.95ZM164.95 34.15V6.6H249.75L237.45 23.4H247.2V34.15H212L224.05 17.35H209.05V34.15H192.55V17.35H181.5V34.15H164.95ZM263.15 6.6H305.05V34.15H243.3L263.15 6.6ZM269.75 23.9H288.5V16.8H275L269.75 23.9ZM330.55 34.15L343 17.35H326.5V34.15H309.95V6.6H368.3L355.95 23.4H365.7V34.15H330.55ZM369.5 5V0H387.15V5H369.5ZM369.5 6.6H387.15V34.15H369.5V6.6ZM392.15 0H408.7V23.4H436.25V34.15H392.15V0ZM408.7 6.6H436.25V17.35H416.4L408.7 6.6ZM488.9 34.15H439.8V6.6H494.35L462.95 23.4H488.9V34.15ZM456.35 23.6L469.15 16.75H456.35V23.6Z" fill="white"/>
+    </g>
+    </g>
+    <path id="Vector_2" d="M24.6 0H73.9V34.15H55.5V22.45L47.05 34.15H0L24.6 0ZM29 22.45H55.5V11.8H36.7L29 22.45Z" fill="white"/>
+    </g>
+  </svg>
+  <hr />
+  <h1>Easy, barebones Linux desktop</h1>
+  <p style="font-family: Georgia serif">[ˈa-mə-ˌnīt] (noun): </p>
+  <p>an extinct sea creature often found as a fossil with a flat, spiral shell</p>
+  <h3>It's a Bluefin. Contains the <a href="https://codeberg.org/dotevie/shellac">shellac</a> shell paired with the <a href="https://github.com/niri-wm/niri">niri</a> compositor and the <a href="https://gnome.org">GNOME</a> gear, and no AI agent preinstalled because fuck you, DHH</h3>
+  <h3 id="soon"><a>Download (coming soon)</a></h3>
+  </body>
+</html>
